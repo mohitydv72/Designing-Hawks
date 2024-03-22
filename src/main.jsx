@@ -23,7 +23,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import ScrollTop from './components/ScrollTop.jsx';
+// import ScrollTop from './components/ScrollTop.jsx';
 // import Navbar from './components/Navbar.jsx';
 const router = createBrowserRouter([
   {
@@ -107,6 +107,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <App /> */}
     <RouterProvider router={router} />
-    <ScrollTop/>
+    {/* <ScrollTop/>  */}
   </React.StrictMode>,
 )
